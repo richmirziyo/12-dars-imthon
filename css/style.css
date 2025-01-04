@@ -1,0 +1,151 @@
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v18-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/inter-v18-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter-v18-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* martian-mono-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Martian Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/martian-mono-v3-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* martian-mono-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Martian Mono";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/martian-mono-v3-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* martian-mono-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Martian Mono";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/martian-mono-v3-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* martian-mono-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Martian Mono";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/martian-mono-v3-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  width: 380px;
+  height: 64px;
+  border: 2px solid #062630;
+  border-radius: 8px;
+}
+
+.header {
+  background-image: url(../images/background-image.png);
+  background-color: #0a0d1603;
+}
+
+.header-img {
+  width: 192px;
+  height: 36px;
+  margin-top: 32px;
+  margin-bottom: 80px;
+}
+.hero {
+  display: flex;
+
+  img {
+    width: 536px;
+    height: 606px;
+    border-radius: 5px;
+    margin-left: 64px;
+    margin-bottom: 66px;
+  }
+}
+.hero-sct {
+  margin-right: 64px;
+  margin-top: 80px;
+  h1 {
+    font-family: "Martian Mono";
+    width: 570px;
+    height: 222px;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 74.4px;
+    /* color:; */
+  }
+
+  p {
+    font-family: "Inter";
+    width: 570px;
+    height: 84px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #385159;
+    margin-top: 24px;
+  }
+}
+.hero-btn {
+  margin-top: 32px;
+  border: 2px solid #062630;
+  border-radius: 8px;
+  width: 380px;
+  height: 64px;
+  background-color: #fff5ef;
+  /* background-image: url(../images/icon-arrow-down.svg);  */
+    /* background-repeat: no-repeat;  */
+
+  a {
+    width: 292px;
+    height: 23px;
+    font-family: Martian Mono;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.4px;
+    text-decoration: none;
+    color: #062630;
+    
+  }
+}
