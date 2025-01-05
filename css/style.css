@@ -239,18 +239,40 @@ html {
   margin-top: 247px;
 
   h2 {
-    width: px;
+    /* width: 534px; */
     height: 130px;
     font-family: Martian Mono;
     font-size: 50px;
     font-weight: 600;
     line-height: 65px;
     color: #062630;
+    background-image: url(../images/pattern-circle.png);
+    background-repeat: no-repeat;
+    background-position: bottom right 60%;
   }
 
   p {
     width: 530px;
     height: 112px;
     padding-top: 24px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #385159;
+
+    span {
+      font-family: Inter;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 28px;
+      color: #385159;
+    }
   }
+}
+
+.logos-techs{
+  position: relative;
+  left: 100%;
+  bottom: 30px;
 }
