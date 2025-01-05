@@ -494,11 +494,6 @@ html {
   /* background-color: #e6e1df; */
   background: var(--colors-neutral-50, #faf5f3);
 
-  hr {
-    width: 302px;
-    height: 1px;
-  }
-
   h4 {
     width: 49px;
     height: 26px;
