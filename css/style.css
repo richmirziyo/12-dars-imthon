@@ -151,6 +151,11 @@ html {
   }
 }
 
+.hero-btn:hover {
+  opacity: 60%;
+  cursor: pointer;
+}
+
 .hero-end-image {
   width: 110px;
   height: 40px;
@@ -278,6 +283,7 @@ html {
 }
 
 .your {
+  /* margin-right: 270px; */
   width: 1170px;
   height: 454px;
   margin-top: 120px;
@@ -295,7 +301,6 @@ html {
     line-height: 60px;
   }
 }
-
 
 .numbers {
   width: 1050px;
@@ -336,5 +341,297 @@ html {
     font-size: 18px;
     font-weight: 600;
     line-height: 23.4px;
+  }
+}
+
+.membership {
+  width: 970px;
+  height: 519px;
+  margin-top: 120px;
+
+  h2 {
+    width: 970px;
+    height: 65px;
+    align-items: center;
+    text-align: center;
+    font-family: Martian Mono;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 65px;
+  }
+}
+.membership-gr {
+  /* margin-top: 64px; */
+  display: flex;
+}
+.starter {
+  width: 286px;
+  height: 358px;
+  margin-top: 80px;
+  border: 1px solid #e6e1df;
+  border-radius: 8px;
+  margin-right: 24px;
+}
+.book__online {
+  display: flex;
+  width: 161px;
+  height: 28px;
+  padding-top: 24px;
+
+  img {
+    width: 24px;
+    height: 24px;
+    /* margin-right: 12px; */
+  }
+
+  span {
+    /* width: 125px;
+    height: 28px;  */
+    /* padding-left: 5px; */
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #385159;
+  }
+}
+
+.in-starter {
+  padding: 24px;
+
+  h4 {
+    width: 112px;
+    height: 26px;
+    font-family: Martian Mono;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26.4px;
+    color: #062630;
+  }
+
+  p {
+    width: 65px;
+    height: 65px;
+    padding-top: 24px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #385159;
+
+    span {
+      width: 70px;
+      height: 44px;
+      font-family: Martian Mono;
+      font-size: 34px;
+      font-weight: 600;
+      line-height: 44.2px;
+      color: #062630;
+    }
+  }
+
+  hr {
+    width: 238px;
+    height: 1px;
+    color: #e6e1df;
+  }
+}
+.starter-btn {
+  width: 228px;
+  height: 63px;
+  margin-left: 24px;
+  border: 2px solid #062630;
+  border-radius: 8px;
+  background-color: #fff5ef;
+
+  a {
+    width: 152px;
+    height: 23px;
+    font-family: Martian Mono;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.4px;
+    color: #062630;
+    text-decoration: none;
+  }
+}
+
+.book__online3 {
+  display: flex;
+  margin-top: 24px;
+
+  img {
+    width: 24px;
+    height: 24px;
+    padding-right: 12px;
+  }
+
+  span {
+    /* width: 148px;
+    height: 28px; */
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #062630;
+  }
+}
+
+.starter-btn:hover {
+  opacity: 60%;
+  cursor: pointer;
+}
+.pro {
+  width: 350px;
+  height: 390px;
+  margin-top: 64px;
+  border: 1px solid #e6e1df;
+  border-radius: 8px;
+  margin-right: 24px;
+
+  hr {
+    width: 302px;
+    height: 1px;
+  }
+
+  h4 {
+    width: 49px;
+    height: 26px;
+    font-family: Martian Mono;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26.4px;
+    color: #062630;
+  }
+}
+
+.in-starter1 {
+  padding-top: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+  p {
+    width: 65px;
+    height: 65px;
+    padding-top: 24px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #385159;
+
+    span {
+      width: 70px;
+      height: 44px;
+      font-family: Martian Mono;
+      font-size: 34px;
+      font-weight: 600;
+      line-height: 44.2px;
+      color: #062630;
+    }
+  }
+}
+
+.book__online2 {
+  width: 302px;
+  height: 72px;
+  display: flex;
+  width: 161px;
+  height: 28px;
+  padding-top: 24px;
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+
+  span {
+    width: 139px;
+    height: 28px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #385159;
+  }
+}
+.pro__btn {
+  width: 302px;
+  height: 63px;
+  margin-top: 32px;
+  margin-left: 24px;
+  border: 2px solid #062630;
+  border-radius: 8px;
+  background-color: #fff5ef;
+
+  &:hover {
+    opacity: 60%;
+    cursor: pointer;
+  }
+
+  a {
+    width: 152px;
+    height: 23px;
+    font-family: Martian Mono;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.4px;
+    color: #062630;
+    text-decoration: none;
+  }
+}
+.enterprise {
+  width: 286px;
+  height: 358px;
+  margin-top: 80px;
+  border: 1px solid #e6e1df;
+  border-radius: 8px;
+  margin-right: 24px;
+
+  h4 {
+    width: 160px;
+    height: 26px;
+    padding-bottom: 24px;
+    font-family: Martian Mono;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26.4px;
+    color: #062630;
+  }
+
+  hr{
+    width: 238px;
+    height: 1px;
+  }
+}
+
+.custom {
+  width: 138px;
+  height: 44px;
+  padding-bottom: 20px;
+  font-family: Martian Mono;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 44.2px;
+  color: #062630;
+}
+
+.book__online2 {
+  width: 161px;
+  height: 28px;
+  display: flex;
+  padding-top: 24px;
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+
+  span {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #385159;
   }
 }
